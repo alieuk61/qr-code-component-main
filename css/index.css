@@ -1,0 +1,38 @@
+body{
+ background-color: hsl(212, 45%, 89%);
+}
+
+.main{
+  text-align: center;
+  border-radius: 5%;
+  width: 18rem;
+  position:relative;
+  top: 150px;
+  margin: auto; /*puts things directly in the middle*/
+}
+
+.card-img-top{
+  border-radius: 5%;
+  width: 90%;
+  position: relative; /*moved the pic around in the div to make it centred*/
+  left: 14px;
+  top: 12px;
+}
+
+.card-heading-1{
+  font-family: Outfit;
+  font-weight: 700;
+  padding-top: 14px;
+}
+
+.card-text-1{
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+
+.attribution{
+  text-align: center;
+  margin-top: 12rem;
+}
